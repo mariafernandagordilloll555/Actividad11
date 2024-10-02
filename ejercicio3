@@ -10,12 +10,12 @@
 let numero = parseInt(prompt("ingrese monto de su compra"));
 
 if (numero > 100)  {
-    let total=numero-(numero*0,1);
+    let total=(numero-(numero*0,1));
   console.log("El valor de su compra es", total);
-  
+  document.write("El valor de su compra es", total);
 } else {
 	console.log("El monto de su compra es", numero);
- 
+    document.write("El valor de su compra es", total);
 } 
 
 	</script>
