@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejercicio2</title>
+</head>
+<body>
+	<script>
+		
+
+let numero = parseInt(prompt("ingrese un numero"));
+
+if (numero % 2==0) {
+  console.log("Numero es par");
+  document.write("Numero es par");
+} else {
+	console.log("Numero es impar");
+  document.write("Numero es impar");
+} 
+
+	</script>
+</body>
+</html>
