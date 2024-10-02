@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejercicio3</title>
+</head>
+<body>
+	<script>
+		
+
+let numero = parseInt(prompt("ingrese monto de su compra"));
+
+if (numero > 100)  {
+    let total=numero-(numero*0,1);
+  console.log("El valor de su compra es", total);
+  
+} else {
+	console.log("El monto de su compra es", numero);
+ 
+} 
+
+	</script>
+</body>
+</html>
